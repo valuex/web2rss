@@ -177,8 +177,8 @@ sites:
   - name: szgov.tongzhi
     follow_desc: 
     url: https://www.sz.gov.cn/cn/xxgk/zfxxgj/tzgg/
-    block_css: div.zx_ml_list > ul
-    title_css: li>span>a
-    description_css: li>span>a::attr('title')
-    link_css:li>span>a::attr('href')
+    block_css: div.zx_ml_list ul
+    title_css: li span a
+    description_css: li span a::attr('title')
+    link_css:li span a::attr('href')
     use_headless_browser: false
