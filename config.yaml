@@ -184,3 +184,13 @@ sites:
     link_css: a.card.card--text
     date_css: time  # 发布时间
     use_headless_browser: true
+  - name: resonac_semi_backend_process
+    follow_desc:
+    url: https://www.resonac.com/products/semi-backend-process
+    block_css: main > div.str-section > div > div > dl > div > dt > div
+    title_css: span > a
+    description_css: span > a > b
+    link_css: span > a.href
+    date_css: time  # 发布时间
+    use_headless_browser: true
+    
